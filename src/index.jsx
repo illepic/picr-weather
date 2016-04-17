@@ -37,29 +37,6 @@ store.dispatch(setState({
 }));
 
 
-// const FORECASTAPIKEY = '68a3558d4e91f09b8a38922f4e06214a';
-// const LAT = 45.6387;
-// const LON = 122.6615;
-// const req = `https://api.forecast.io/forecast/${FORECASTAPIKEY}/${LAT}/${LON}`;
-// console.log(req);
-//
-// request.get(req).use(jsonp)
-//   .end(function(err, res) {
-//     console.log(res);
-//   });
-
-
-// const forecastOptions = {
-//   APIKey: '68a3558d4e91f09b8a38922f4e06214a',
-//   timeout: 10000
-// };
-// forecast = new Forecast(options);
-// forecast.get(45.6387, 122.6615, function(err, res, data) {
-//   console.log(res);
-//   console.log(data);
-// });
-
-
 // Routes
 const routes = <Route component={App}>
   <Route path="/results" component={ResultsContainer} />
